@@ -238,6 +238,20 @@ img {
   overflow: hidden;
 }
 
+.section-two-icontainer{
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cloud);
+  margin-bottom: 8px;
+}
+.section-two-icon{
+  fill: var(--cloud);
+}
+
 /* ----------------------------------------------------INDEX SECTION THREE---------------------------------------------------------- */
 
 .section-three-heading {
