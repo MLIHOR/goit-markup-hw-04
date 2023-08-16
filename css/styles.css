@@ -1,0 +1,404 @@
+/*------------------------------------------------------- GLOBAL SETTINGS---------------------------------------------------------- */
+
+:root {
+  --navyblue: #2e2f42;
+  --white: #fff;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+body {
+  background: var(--white);
+  color: var(--slate);
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* ---------------------------------------------------------HEADER----------------------------------------------------------------- */
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+.h-logo {
+  margin-right: 76px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+.header-menu {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-list-item:last-child {
+  margin-right: 0;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.logo-link {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.second-logo-link {
+  color: var(--navyblue);
+}
+
+.nav-list {
+  color: var(--navyblue);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-list-link {
+  color: var(--navyblue);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+.header-list-link:hover {
+  color: var(--ocean);
+}
+
+.header-list-link:focus {
+  color: var(--ocean);
+}
+
+.address-section {
+  font-style: normal;
+}
+
+.address-list-link {
+  color: var(--slate);
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-list-link:hover {
+  color: var(--ocean);
+}
+.address-list-link:focus {
+  color: var(--ocean);
+}
+
+/* -----------------------------------------------------INDEX SECTION ONE---------------------------------------------------------- */
+
+.section-one {
+  background: var(--navyblue);
+  padding: 188px 0;
+}
+
+.section-one-motto {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 48px;
+  max-width: 496px;
+}
+
+.section-one-button {
+  background: var(--iris);
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+}
+
+.section-one-button:hover {
+  background: var(--ocean);
+}
+
+.section-one-button:focus {
+  background: var(--ocean);
+}
+
+.section-one-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+/* ----------------------------------------------------INDEX SECTION TWO----------------------------------------------------------- */
+
+.section-two-features {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.section-two-paragraf {
+  color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-two {
+  padding: 120px 0;
+}
+.section-two-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.section-two-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ----------------------------------------------------INDEX SECTION THREE---------------------------------------------------------- */
+
+.section-three-heading {
+  color: var(--navyblue);
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.section-three {
+  padding-bottom: 120px;
+}
+.section-three-container {
+  margin: 0 auto;
+  align-content: center;
+}
+
+.section-three-list {
+  display: flex;
+  gap: 24px;
+}
+.section-three-item {
+  width: calc((100% - 2 * 24px) / 3);
+}
+/* -------------------------------------------------------INDEX SECTION FOUR-------------------------------------------------------- */
+
+.section-four {
+  background: var(--cloud);
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.section-four-heading {
+  color: var(--navyblue);
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.section-four-person {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.section-four-position {
+  color: var(--slate);
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-four-item {
+  background: var(--white);
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.team-container {
+  padding: 32px 0px;
+}
+
+.section-four-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+/* ------------------------------------------------------PORTFOLIO PAGE------------------------------------------------------------ */
+
+/* -------------------------------------------------------PORTFOLIO SECTION ONE BUTTONS----------------------------------------------------- */
+
+.sub-menu-item {
+  background: var(--cloud);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+
+.sub-menu-item:hover,
+.sub-menu-item:focus {
+  background: var(--ocean);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+.project-list {
+  padding: 96px 0 120px 0;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+/* -------------------------------------------------------PORTFOLIO SECTION ONE LIST----------------------------------------------- */
+
+.project-list-heading {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.project-list-paragraf {
+  color: var(--slate);
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.portfolio-projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.project-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.p-projects-container {
+  border: 1px solid var(--cornflower);
+  padding: 32px 16px;
+  border-top: none;
+}
+
+/* ---------------------------------------------------------FOOTER----------------------------------------------------------------- */
+.footer {
+  background: var(--navyblue);
+  padding: 100px 0;
+}
+.second-logo-footer {
+  color: var(--cloud);
+}
+
+.footer-descr {
+  color: var(--cloud);
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  height: 72px;
+  max-width: 264px;
+}
+
+
+.f-logo{
+  display: inline-block;
+  margin-bottom: 16px;
+}
